@@ -1,0 +1,134 @@
+@media screen and (max-width: 1200px) {
+    .landing-page__content h1 {
+        font-size: 50px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .landing-page__content h1 {
+        font-size: 38px;
+    }
+    
+    .landing-page .social-links {
+        display: none;
+    }
+    
+    .istatistic .projects-counter li {
+        width: 47%;
+    }
+    
+    .istatistic .projects-counter li:nth-child(3) {
+        border-left-color: transparent;
+    }
+    footer .copyright {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1249px) {
+    .form-container aside {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .landing-page__content h1 {
+        font-size: 28px;
+        line-height: 1.57;
+    }
+    .landing-page__content {
+        margin: 120px 0 80px;
+        padding: 0 20px 0 60px;
+    }
+
+    .landing-page .action-links {
+        margin: 40px 0 120px 60px;
+        width: fit-content;
+    }
+
+    .landing-page .action-links a {
+        display: block;
+    }
+
+    .landing-page .action-links a:nth-child(2) {
+        margin-left: unset;
+        margin-top: 15px;
+    }
+    .section-first-title {
+        font-size: 38px !important;
+        line-height: 1.4;
+    }
+    .istatistic p {
+        font-size: 20px;
+    }
+    .istatistic .projects-counter strong {
+        font-size: 60px;
+    }
+    .gallery-item {
+        height: 400px;
+    }
+    .gallery-item:nth-child(2) {
+        height: 300px;
+    }
+    
+    .gallery-item:nth-child(even):not(:nth-child(2)) {
+        margin-top: 0;
+    }
+    .messages {
+        width: 90%;
+    }
+    .messages .message p {
+        font-size: 18px;
+    }
+    .messages .nav-btn {
+        top: 20%;
+        right: 0;
+    }
+    .messages .nav-btn.prev-message {
+        right: unset;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .landing-page__content {
+        margin: 120px 0 60px;
+        padding: 0 20px 0 35px;
+    }
+
+    .landing-page .action-links {
+        margin: 40px 0 120px 35px;
+    }
+    
+    .landing-page__content h1 {
+        font-size: 27px;
+    }
+    
+    .istatistic .projects-counter li+li {
+        width: 95%;
+    }
+    
+    .istatistic .projects-counter li+li {
+        border-left-color: transparent;
+    }
+    .form-container {
+        width: max(320px, 93%);
+    }
+    .my-clients .clients-list a {
+        min-width: 140px;
+    }
+    footer form input[type=email] {
+        width: 170px;
+    }
+    footer form button {
+        padding: 0 10px;
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    
+    .landing-page__content h1 {
+        font-size: 22px;
+    }
+}
