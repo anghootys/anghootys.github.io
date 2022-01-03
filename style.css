@@ -811,6 +811,7 @@ button.back-to-top.show {
     transition: .3s ease-in-out;
     background-color: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    color: #ffffff;
 }
 
 .form-container form :is(input, textarea):focus {
